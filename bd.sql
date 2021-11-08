@@ -50,7 +50,7 @@ create table individuals_list(
 	program varchar (255),
 	nationality varchar (255),
 	citizenship varchar (255),
-	remarks varchar (255)
+	remarks text
 );
 
 create table individuals_identifications(
