@@ -1,0 +1,11 @@
+/*for country selection*/
+
+for (index of document.querySelectorAll('#ctl00_MainContent_ddlCountry > option')){
+console.log(index.selected = true)}
+
+/*selection for entity and individual*/
+document.querySelectorAll('#ctl00_MainContent_ddlType')[0].value = 'Entity'
+document.querySelectorAll('#ctl00_MainContent_ddlType')[0].value = 'Individual'
+
+/*search()*/
+document.querySelectorAll('#ctl00_MainContent_btnSearch')[0].click()
